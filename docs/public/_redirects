@@ -1,5 +1,7 @@
 # Proxies
 
+/r/foo https://codesandbox.io/s/material-ui-issue-latest-s2dsx
+
 ## mui-x is configured to be hosted at the root.
 /static/* https://material-ui-docs.netlify.app/static/:splat 200
 
@@ -10,7 +12,8 @@
 
 # Redirections
 
-/ /x/react-data-grid/
+/ /x/advanced-components/
+/x/foo/ /x/advanced-components/
 
 ## Redirections have to be done in the core repository, it owns the domain name.
 ## e.g. https://github.com/mui/material-ui/blob/HEAD/docs/public/_redirects#L31
