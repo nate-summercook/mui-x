@@ -17,9 +17,9 @@
     "typescript:transpile:dev": "cross-env BABEL_ENV=development babel-node --extensions \".tsx,.ts,.js\" scripts/formattedTSDemos --watch"
   },
   "dependencies": {
-    "@babel/core": "^7.17.9",
+    "@babel/core": "^7.17.10",
     "@babel/plugin-transform-object-assign": "^7.16.7",
-    "@babel/runtime-corejs2": "^7.17.9",
+    "@babel/runtime-corejs2": "^7.17.11",
     "@date-io/date-fns-jalali": "^2.13.1",
     "@docsearch/react": "^3.0.0",
     "@emotion/cache": "^11.7.1",
